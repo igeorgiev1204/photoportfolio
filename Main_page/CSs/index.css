@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+* {box-sizing: border-box;}
+.wrap{
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0,0,0,0.603)),url(bg.jpg);
+    padding-left: 3%;
+    padding-right: 3%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 14px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    padding: 3px ;
+}
+nav ul li a:hover{
+    color: rgb(168, 168, 168);
+    transform: translateY(-10px);
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 6%;
+    
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #ffffff;
+    font-size: 85px;
+    font-family: 'Satisfy', cursive;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    
+}
+p{
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 20px;
+    padding-bottom: 26%;
+    
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    cursor: pointe;
+    margin: 10px 15px;
+    text-align: left;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.card1{
+    background-image: url(1.png);
+}
+.card2{
+    background-image: url(2.png);
+}
+.card3{
+    background-image: url(3.png); 
+}
+.card4{
+    background-image: url(4.png);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #ffffff;
+    text-shadow: 0 0 10px #999999;
+    
+}
+.card p{
+    text-shadow: 0 0 25px #000000;
+    font-size: 8px;
+
+    
+}
+.sm{
+    text-align: left;
+    display: inherit;
+    padding-top: 24%;
+    padding-bottom: 5%;
+}
+.fa {
+    padding: 20px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    border-radius: 80%;
+    transition: transform 0.5s; 
+
+}
+  
+.fa:hover {
+    transform: translateY(-10px);
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #ffffff;
+    color:  #241808;
+}
+.fa-instagram {
+    background: #ffffff;
+    color: #241808;
+}
+.fa-youtube {
+    background: #ffffff;
+    color: #241808;
+}

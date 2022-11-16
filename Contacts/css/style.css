@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat",sans-serif;
+}
+.wrap{
+  width: 100%;
+}
+.container{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0,0,0,0.603)),url(bg.jpg);
+  padding-left: 3%;
+  padding-right: 3%;
+  box-sizing: border-box;
+}
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 50px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 14px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: 0.5s ease;
+  padding: 3px;
+}
+nav ul li a:hover{
+  color: rgb(168, 168, 168);
+  transform: translateY(-10px);
+}
+.contact-section{
+  padding: 10% 0;
+  text-align: center;
+}
+
+.inner-width{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.contact-section h1{
+  font-size: 20px;
+  color: rgb(255, 245, 245);
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.name,.email,.message{
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  color: rgb(255, 245, 245);
+  padding: 10px 6px;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.name{
+  float: left;
+  width: 270px;
+}
+
+.email{
+  float: right;
+  width: 270px;
+}
+
+.message{
+  min-width: 100%;
+  max-width: 100%;
+}
+
+
+.contact-section button{
+  background: none;
+  color: rgb(255, 245, 245);
+  border: 1px solid rgb(255, 245, 245);
+  padding: 12px 40px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.contact-section button:hover{
+  background: #a39471;
+  color: #fff;
+}
+
+
+@media screen and (max-width:600px){
+  .name,.email{
+    width: 100%;
+  }
+}
